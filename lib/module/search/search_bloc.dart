@@ -19,7 +19,7 @@ class SearchBloc {
     //print(query);
     if (query.isEmpty) {
       // print('cau lenh');
-      print('Day la do dai cua data: ${data.length}');
+     // print('Day la do dai cua data: ${data.length}');
       searchController.sink.add(data);
       return;
     }
